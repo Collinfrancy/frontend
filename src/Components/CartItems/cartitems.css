@@ -1,0 +1,84 @@
+.cartitems {
+  margin: 100px 170px;
+}
+.cartitems-title {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 75px;
+  padding: 20px 0px;
+  color: #454545;
+  font-size: 18px;
+  font-weight: 600;
+}
+.classitemimg {
+  width: 80px;
+}
+.cartitems hr {
+  height: 3px;
+  background: black;
+  border: 0;
+}
+.classitems-format {
+  font-size: 17px;
+  font-weight: 500;
+}
+.quantity {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+.carticon-remove-icon {
+  width: 15px;
+  height: 20px;
+  margin: 0px 35px;
+  cursor: pointer;
+}
+.carticon-remove-icon:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+.carttotal {
+  margin: 70px 140px;
+}
+.carttotal h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #454545;
+}
+.carttotals {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sub {
+  display: flex;
+  justify-content: space-between;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: 600;
+}
+.cartitems button {
+  color: white;
+  background-color: rgb(133, 64, 64);
+  width: 200px;
+  height: 50px;
+  margin-left: 700px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.cartitems button:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}
